@@ -7,7 +7,7 @@ int main()
 {
    pc.baud(115200);
    esp.baud(115200);
-   wait(0.1);
+   wait(0.2);
    pc.printf("\r\n########### ready ###########\r\n");
    esp.printf("AT\r\n");
    char str[50];
